@@ -41,3 +41,7 @@ _templates
 # Alpha
 lab/
 /.mypy_cache
+
+# Local secrets (never commit credentials)
+*.local.json
+.env
